@@ -1,3 +1,7 @@
+<script>
+	import Outline from './buttons/Outline.svelte';
+</script>
+
 <div
 	class="relative h-screen w-full rounded-lg bg-cover bg-no-repeat bg-blend-multiply"
 	style="background-image: url('/hero-bg.jpg'); background-color: rgba(72, 72, 83, 0.6);"
@@ -23,9 +27,6 @@
 		<p class="font-body text-xl text-white">
 			Enabling sustainable products – customer driven – performance focused
 		</p>
-		<a
-			class="font-body self-start rounded-lg border border-white px-8 py-4 text-sm font-semibold text-white"
-			href="/">Find out more</a
-		>
+		<Outline text="Find out more" url="/" />
 	</div>
 </div>
