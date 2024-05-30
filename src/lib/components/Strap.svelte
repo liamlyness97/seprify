@@ -3,12 +3,12 @@
 </script>
 
 <div
-	class="h-[650px] w-full rounded-lg bg-cover bg-bottom bg-no-repeat"
+	class="h-[500px] w-full rounded-lg bg-cover bg-bottom bg-no-repeat md:h-[650px]"
 	style="background-image: url('/strap-bg.png')"
 >
-	<div class="mx-auto flex h-full max-w-7xl items-center">
-		<div class="flex w-[40%] flex-col gap-5 pr-14">
-			<p class="font-display text-4xl font-semibold leading-tight text-white">
+	<div class="mx-auto flex h-full max-w-7xl items-center p-10 md:p-0">
+		<div class="flex w-full flex-col gap-5 md:w-[40%] md:pr-14">
+			<p class="font-display text-2xl font-semibold leading-tight text-white md:text-4xl">
 				Super-White material inspired by the Cyphochilus Beetle
 			</p>
 			<p class="font-body leading-normal text-white">

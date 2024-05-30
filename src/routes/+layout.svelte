@@ -3,7 +3,7 @@
 	let { children } = $props();
 </script>
 
-<main class="p-5">
+<main class="p-3 md:p-5">
 	{@render children()}
 </main>
 

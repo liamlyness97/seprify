@@ -27,11 +27,11 @@
 	];
 </script>
 
-<div class="w-full pt-36">
-	<div class="mx-auto grid max-w-7xl grid-cols-2 gap-8">
+<div class="w-full pt-20 md:pt-36">
+	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
 		<div class="flex flex-col gap-5">
-			<div class="w-1/2">
-				<p class="font-display text-4xl font-semibold">Insights & Media</p>
+			<div class="w-full px-10 md:w-1/2 md:px-0">
+				<p class="font-display text-3xl font-semibold md:text-4xl">Insights & Media</p>
 				<p class="font-body my-5 text-balance text-lg font-medium leading-normal">
 					Take a look at our recent articles and news headlines. View all
 				</p>
@@ -55,7 +55,7 @@
 				>
 					<p>Insights</p>
 				</div>
-				<div class="flex w-3/4 flex-col gap-3 p-10">
+				<div class="flex w-full flex-col gap-3 p-10 md:w-3/4">
 					<p class="font-body text-lg font-medium text-white">15/04/23</p>
 					<p class="font-display text-2xl font-semibold text-white">
 						A Friborg start-up is developing an alternative to titanium dioxide with cellulose
@@ -77,7 +77,7 @@
 				>
 					<p>Insights</p>
 				</div>
-				<div class="flex w-3/4 flex-col gap-3 p-10">
+				<div class="flex w-full flex-col gap-3 p-10 md:w-3/4">
 					<p class="font-body text-lg font-medium text-white">15/04/23</p>
 					<p class="font-display text-2xl font-semibold text-white">
 						A Friborg start-up is developing an alternative to titanium dioxide with cellulose
