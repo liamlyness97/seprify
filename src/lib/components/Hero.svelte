@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="relative h-screen w-full rounded-lg bg-cover bg-no-repeat bg-blend-multiply"
+	class="relative h-[96vh] w-full rounded-lg bg-cover bg-no-repeat bg-blend-multiply"
 	style="background-image: url('/hero-bg.jpg'); background-color: rgba(72, 72, 83, 0.6);"
 >
 	<div class="flex w-full justify-between px-20 pt-14">
@@ -24,7 +24,7 @@
 		<p class="font-display w-[55%] text-pretty text-5xl font-medium leading-tight text-white">
 			Cellulose based high value added ingredients and formulations
 		</p>
-		<p class="font-body text-xl text-white">
+		<p class="font-body text-xl text-white shadow-lg">
 			Enabling sustainable products – customer driven – performance focused
 		</p>
 		<Outline text="Find out more" url="/" />
