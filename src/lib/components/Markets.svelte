@@ -20,7 +20,11 @@
 		<div class="mx-auto w-full text-center md:w-1/4">
 			<p class="mb-3 font-display text-4xl font-semibold text-white">Our Markets</p>
 			<p class="font-body text-white">
-				Functional ingredients produced from renewable resources. View All
+				Functional ingredients produced from renewable resources. <a
+					href="/"
+					class="border-b border-white font-semibold duration-200 hover:border-[#6B91D8] hover:text-[#6B91D8]"
+					>View All</a
+				>
 			</p>
 		</div>
 		<div

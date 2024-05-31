@@ -47,7 +47,11 @@
 			<div class="w-full px-10 md:w-1/2 md:px-0">
 				<p class="font-display text-3xl font-semibold md:text-4xl">Insights & Media</p>
 				<p class="my-5 text-balance font-body text-lg font-medium leading-normal">
-					Take a look at our recent articles and news headlines. View all
+					Take a look at our recent articles and news headlines. <a
+						href="/"
+						class="border-b border-black font-semibold duration-200 hover:border-[#6B91D8] hover:text-[#6B91D8]"
+						>View all</a
+					>
 				</p>
 			</div>
 			<MediaItem image={'/news2.png'} />

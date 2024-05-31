@@ -35,7 +35,9 @@
 			<p>Privacy</p>
 		</div>
 		<div class="flex justify-end gap-2 font-body text-white md:gap-8">
-			<p>Site by Alt</p>
+			<p>
+				Site by <a class="text-white" href="https://www.alt-design.net/" title="Alt Design">Alt</a>
+			</p>
 			<p>© 2023 Seprify</p>
 		</div>
 	</div>
