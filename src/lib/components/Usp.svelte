@@ -3,7 +3,7 @@
 	import { usps } from '$lib/components/usps/uspData';
 </script>
 
-<div class="relative mt-5 w-full overflow-hidden rounded-lg bg-[#E7EEF7] px-10 py-20 md:py-36">
+<div class="relative mt-5 w-full overflow-hidden rounded-lg bg-[#E7EEF7] px-10 py-20 md:py-40">
 	<div
 		class="absolute -right-[150px] -top-[270px] z-10 h-[650px] w-[650px] rounded-full bg-white opacity-40"
 	></div>
