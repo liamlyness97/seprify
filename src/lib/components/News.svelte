@@ -1,6 +1,17 @@
 <script lang="ts">
+	import { animate, inView, stagger } from 'motion';
 	import InsightItem from './news/InsightItem.svelte';
 	import MediaItem from './news/MediaItem.svelte';
+
+	$effect(() => {
+		inView('.news', () => {
+			animate(
+				'.newsItem',
+				{ opacity: [0, 1] },
+				{ delay: stagger(0.2, { start: 0.5 }), duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
+			);
+		});
+	});
 
 	const news = [
 		{
@@ -31,7 +42,7 @@
 </script>
 
 <div class="relative z-30 w-full pt-20 md:pt-36">
-	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
+	<div class="news mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
 		<div class="flex flex-col gap-5">
 			<div class="w-full px-10 md:w-1/2 md:px-0">
 				<p class="font-display text-3xl font-semibold md:text-4xl">Insights & Media</p>

@@ -1,5 +1,16 @@
 <script lang="ts">
+	import { animate, inView, stagger } from 'motion';
 	import Outline from '$lib/components/buttons/Outline.svelte';
+
+	$effect(() => {
+		inView('.marketItems', () => {
+			animate(
+				'.market',
+				{ opacity: [0, 1] },
+				{ delay: stagger(0.1, { start: 0.5 }), duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
+			);
+		});
+	});
 </script>
 
 <div
@@ -12,49 +23,51 @@
 				Functional ingredients produced from renewable resources. View All
 			</p>
 		</div>
-		<div class="mt-14 grid w-full grid-cols-2 grid-rows-2 gap-8 md:mt-20 md:grid-cols-4 md:gap-20">
-			<div class="flex flex-col gap-3">
+		<div
+			class="marketItems relative z-40 mt-14 grid w-full grid-cols-2 grid-rows-2 gap-8 md:mt-20 md:grid-cols-4 md:gap-20"
+		>
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/food.png" alt="" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Food</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/feed.png" alt="" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Feed</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/cosmetics.png" alt="Cosmetics" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Cosmetics</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/personal-care.png" alt="Personal Care" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Personal Care</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/pharma.png" alt="Pharma" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Pharma</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/personal-care.png" alt="Coatings" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Coatings</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/inks.png" alt="Inks" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Inks</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
-			<div class="flex flex-col gap-3">
+			<div class="market flex flex-col gap-3">
 				<img class="h-12 w-fit" src="/markets/paints.png" alt="Paints" />
 				<p class="font-display text-2xl font-semibold text-white md:text-3xl">Paints</p>
 				<p class="text-white md:text-lg">Our products are bio degradable, produced responsibly.</p>
 			</div>
 		</div>
-		<div class="mt-20 flex justify-center">
+		<div class="relative z-40 mt-20 flex justify-center">
 			<Outline text="Find out more" url="/" />
 		</div>
 	</div>

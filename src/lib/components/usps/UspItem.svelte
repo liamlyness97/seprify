@@ -7,7 +7,7 @@
 	}: { title: string; snippet: string; image: string; link: string } = $props();
 </script>
 
-<div class="flex flex-col justify-between gap-5">
+<div class="usp flex flex-col justify-between gap-5">
 	<div class="flex flex-col gap-3">
 		<img class="h-14 w-fit" src={image} alt={title} />
 		<p class="font-display text-3xl font-semibold text-[#0C2D56]">{title}</p>
