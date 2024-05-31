@@ -6,27 +6,27 @@
 			animate(
 				'.bubble1',
 				{ opacity: [0, 0.3], y: [50, 0] },
-				{ duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
+				{ delay: 0.5, duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
 			);
 			animate(
 				'.bubble2',
 				{ opacity: [0, 0.3], y: [50, 0] },
-				{ delay: 0.25, duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
+				{ delay: 0.75, duration: 0.5, easing: [0.17, 0.55, 0.55, 1] }
 			);
 			animate(
 				'.bubble3',
 				{ opacity: [0, 1], y: [50, 0] },
-				{ delay: 0.5, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
+				{ delay: 1, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
 			);
 			animate(
 				'.bubble4',
 				{ opacity: [0, 0.3], y: [50, 0] },
-				{ delay: 0.75, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
+				{ delay: 1.25, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
 			);
 			animate(
 				'.bubble5',
 				{ opacity: [0, 1], y: [50, 0] },
-				{ delay: 1, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
+				{ delay: 1.5, duration: 0.75, easing: [0.17, 0.55, 0.55, 1] }
 			);
 		});
 	});
