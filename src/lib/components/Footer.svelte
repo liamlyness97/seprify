@@ -21,7 +21,7 @@
 				</p>
 				<p class="font-body md:text-lg">Functional ingredients produced from renewable resources</p>
 				<a
-					class="hover self-end rounded-lg border border-[#80A1F8] bg-[#80A1F8] bg-opacity-0 px-6 py-3 text-sm font-bold text-[#80A1F8] duration-500 ease-in-out hover:bg-opacity-100 hover:text-[#0C2D56]"
+					class="hover self-start rounded-lg border border-[#80A1F8] bg-[#80A1F8] bg-opacity-0 px-6 py-3 text-sm font-bold text-[#80A1F8] duration-500 ease-in-out hover:bg-opacity-100 hover:text-[#0C2D56] md:self-end"
 					href="/"
 					title="Get in touch">Get in touch</a
 				>
