@@ -3,7 +3,7 @@
 </script>
 
 <div
-	class="h-[500px] w-full rounded-lg bg-cover bg-bottom bg-no-repeat md:h-[650px]"
+	class="h-[500px] w-full rounded-lg bg-cover bg-fixed bg-bottom bg-no-repeat md:h-[650px]"
 	style="background-image: url('/strap-bg.png')"
 >
 	<div class="mx-auto flex h-full max-w-7xl items-center p-10 md:p-0">
