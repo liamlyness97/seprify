@@ -20,16 +20,21 @@
 					Contribute to our mission of<br />creating a healthier world
 				</p>
 				<p class="font-body md:text-lg">Functional ingredients produced from renewable resources</p>
+				<a
+					class="hover self-end rounded-lg border border-[#80A1F8] bg-[#80A1F8] bg-opacity-0 px-6 py-3 text-sm font-bold text-[#80A1F8] duration-500 ease-in-out hover:bg-opacity-100 hover:text-[#0C2D56]"
+					href="/"
+					title="Get in touch">Get in touch</a
+				>
 			</div>
 		</div>
 	</div>
 
 	<div class="flex w-full justify-between text-xs md:text-sm">
-		<div class="font-body flex gap-2 text-white md:gap-8">
+		<div class="flex gap-2 font-body text-white md:gap-8">
 			<p>Terms of use</p>
 			<p>Privacy</p>
 		</div>
-		<div class="font-body flex justify-end gap-2 text-white md:gap-8">
+		<div class="flex justify-end gap-2 font-body text-white md:gap-8">
 			<p>Site by Alt</p>
 			<p>© 2023 Seprify</p>
 		</div>
