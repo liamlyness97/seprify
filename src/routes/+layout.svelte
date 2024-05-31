@@ -38,7 +38,7 @@
 				<a class="duration-300 ease-out hover:text-[#80A1F8]" href="/" title="News">News</a>
 				<a class="duration-300 ease-out hover:text-[#80A1F8]" href="/" title="Careers">Careers</a>
 				<a
-					class="hover rounded-lg bg-[#80A1F8] px-6 py-3 text-sm font-bold text-[#0C2D56] duration-500 ease-in-out hover:bg-[#0C2D56] hover:text-[#80A1F8]"
+					class="hover rounded-lg border border-[#80A1F8] bg-[#0C2D56] px-6 py-3 text-sm font-bold text-[#80A1F8] duration-500 ease-in-out hover:bg-[#80A1F8] hover:text-[#0C2D56]"
 					href="/">Get in touch</a
 				>
 			</nav>
