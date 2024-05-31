@@ -1,4 +1,4 @@
-<div class="w-full py-20 md:py-36">
+<div class=" w-full py-20 md:py-36">
 	<div class="relative mx-auto grid max-w-5xl grid-cols-4 grid-rows-3 gap-10 md:gap-10">
 		<div class="col-span-4 px-10 md:col-span-2 md:px-0">
 			<p
@@ -57,9 +57,9 @@
 		<div class="my-8 flex w-full flex-wrap items-center justify-between">
 			<img class="h-20 w-fit" src="/awards/award1.png" alt="Award" />
 			<img class="h-20" src="/awards/award5.png" alt="Award" />
-			<img class="h-20 w-fit" src="/awards/award2.png" alt="Award" />
+			<img class="h-28 w-fit" src="/awards/award2.png" alt="Award" />
 			<img class="h-12 w-fit" src="/awards/award4.png" alt="Award" />
-			<img class="h-28 w-fit" src="/awards/award3.png" alt="Award" />
+			<img class="h-24 w-fit" src="/awards/award3.png" alt="Award" />
 		</div>
 		<a
 			class="justify-items-end self-start border-b border-[#39375C] py-3 font-body font-bold text-[#39375C] duration-300 ease-in-out hover:border-[#80A1F8] hover:text-[#80A1F8]"

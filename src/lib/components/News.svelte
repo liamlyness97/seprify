@@ -30,7 +30,7 @@
 	];
 </script>
 
-<div class="w-full pt-20 md:pt-36">
+<div class="relative z-30 w-full pt-20 md:pt-36">
 	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2">
 		<div class="flex flex-col gap-5">
 			<div class="w-full px-10 md:w-1/2 md:px-0">

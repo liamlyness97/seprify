@@ -2,10 +2,12 @@
 	import Outline from '$lib/components/buttons/Outline.svelte';
 </script>
 
-<div class="mt-5 w-full rounded-lg bg-[#0C2D56] px-10 py-20 md:-mt-64 md:pb-32 md:pt-96">
+<div
+	class="relative z-10 mt-5 w-full overflow-hidden rounded-lg bg-[#0C2D56] px-10 py-20 md:-mt-64 md:pb-32 md:pt-96"
+>
 	<div class="mx-auto max-w-7xl">
 		<div class="mx-auto w-full text-center md:w-1/4">
-			<p class="font-display mb-3 text-4xl font-semibold text-white">Our Markets</p>
+			<p class="mb-3 font-display text-4xl font-semibold text-white">Our Markets</p>
 			<p class="font-body text-white">
 				Functional ingredients produced from renewable resources. View All
 			</p>
@@ -56,4 +58,10 @@
 			<Outline text="Find out more" url="/" />
 		</div>
 	</div>
+	<div
+		class="absolute -left-[100vh] bottom-[25vh] z-30 h-[125vh] w-[125vh] rounded-full bg-[#6B91D8] opacity-5 md:-bottom-3/4 md:-left-1/3 md:h-[200vh] md:w-[200vh]"
+	></div>
+	<div
+		class="absolute -right-[20vh] top-1/4 z-30 hidden h-[50vh] w-[50vh] rounded-full bg-[#6B91D8] opacity-5 md:block"
+	></div>
 </div>
